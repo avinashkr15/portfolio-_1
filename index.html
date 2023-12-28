@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio Webpage</title>
+    <link rel="stylesheet" href="/fontawesome-free-6.4.2-web/css/all.css">
+     <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="/Image/s (1).jpg " alt="" class="logo">
+            <ul id="sidemenu">
+                
+                    <li class="tab-links active-link" onclick="opentab ('Home')" ><a href="#header" ><i class="fa fa-home"></i>Home </a></li>
+                    <li  class="tab-links " onclick="opentab ('Home')"><a href="#about">About</a></li>
+                    <li  class="tab-links " onclick="opentab ('Home')"><a href="#Services">Services</a></li>
+                    <li  class="tab-links " onclick="opentab ('Home')"><a href="#portpolio">MyPortfolio</a></li>
+                    <li  class="tab-links " onclick="opentab ('Home')"><a href="#contect">Contect</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+               
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()" ></i>
+        </nav>
+    
+    <div class="header-text">
+        <p>Software Engineer</p>
+        <h1>Hi,  I'm <span> Avinash Kumar</span> <br> From Aurangabad <span>Bihar</span> </h1>
+
+     </div>
+    </div>
+    </div>
+    
+   
+ <!-- about -->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/Image/Avi1-removebg-preview.png" alt="">
+
+
+            </div>
+            <div class="about-col-2">
+                <h1>About Me </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Velit repellat et ab hic cumque mollitia quisquam minima
+                     similique est repudiandae nemo ducimus natus numquam odit quos,
+                      illo eaque fugiat eius.</p>
+
+ 
+               <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab ('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab ('Project')">Project</p>
+                <p class="tab-links" onclick="opentab ('Eduction')">Eduction </p>
+
+               </div>
+               
+               <div class="tab-contents active-tab " id="Skills">
+                <ul>
+                    <li><span>Java/WebTec</span><br>Designig Web/App Interfaces</li>
+                    <li><span>Web Devlopement</span><br>Web App Devlopement</li>
+                    <li><span>App Devlopement</span><br> Building Android / ios App</li>
+                </ul>
+               </div>
+               <div class="tab-contents "id="Project">
+                <ul>
+                    <li><span>Html/CSS</span><br>Amazon Clone</li>
+                    <li><span>Html/Css/js</span><br>Stop Watch </li>
+                    <li><span>Html/Css/js</span><br>To-Do List</li>
+                    <li><span>Html/Css/js</span><br>Calculator</li>
+                    <li><span>Html/Css/js</span><br>Employees Details </li>
+                </ul>
+               </div>
+               <div class="tab-contents "id="Eduction">
+                <ul>
+                    <li><span>2023</span><br>Full Stack Java Training From Jspiders Marathahalli Bangalore.</li>
+                    <li><span>2023</span><br>B.Tec In Mechanical Engineering with 8.34 CGPA From SIRTS Bhopal.</li>
+                    <li><span>2020</span><br>Diploma In Mechanical Engineering with 7.48 CGPA From Mit Bhopal.</li>
+                    <li><span>2017</span><br>10th from BSEB PATNA .</li>
+                </ul>
+               </div>
+                
+            </div>
+            
+
+        </div>
+
+    </div>
+
+ </div>
+ <!-- ------ Services------ -->
+   <div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda quos sapiente mollitia, consectetur quam eum illum consequatur molestiae aliquid iure earum minus adipisci dicta doloremque officia! Id, nostrum quasi.</p>
+                <a href="">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Website Devloper</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda quos sapiente mollitia, consectetur quam eum illum consequatur molestiae aliquid iure earum minus adipisci dicta doloremque officia! Id, nostrum quasi.</p>
+                <a href="">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa fa-app-store"></i>
+                <h2>App Devloper</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda quos sapiente mollitia, consectetur quam eum illum consequatur molestiae aliquid iure earum minus adipisci dicta doloremque officia! Id, nostrum quasi.</p>
+                <a href="">Learn More</a>
+            </div>
+
+        </div>
+
+    </div>
+<!-- -------PORTPOLIO -->
+   </div>
+   <div id="portpolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        
+        <div class="work-list">
+            <div class="work">
+            <img src="/Image/work-1.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>The app connects you yo the telented people around the world.
+                    Download int from play store.
+                </p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+            </div>
+           </div>
+              
+             <div class="work">
+            <img src="/Image/work-2.png" alt="">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects you yo the telented people around the world.
+                    Download int from play store.</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+
+            <div class="work">
+                <img src="/Image/work-3.png" alt="">
+                  <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the telented people around the world.
+                        Download int from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                  </div>
+                </div>
+             </div>
+           </div>
+           <a href="#" class="btn">See More</a>
+       </div>
+    </div>
+    <!-- ------contact------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> sirtsavinash@gmail.com</p>
+                    <p><i class="fa-solid fa-address-book"></i>08519036492</p>
+                    <p><i class="fa-solid fa-address-book"></i>09111322158</p>
+                    <div class="social-icon">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="/images/Avi2.jpg" download class="btn btn2"> <i class="fa-solid fa-download"></i>  Download CV</a>
+                </div>
+
+                <div class="contact-Right">
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text"name="Name" placeholder="Your Name" required>
+                        <input type="email"name="email" placeholder="Your Email" required>
+                        <textarea name="Massage" rows="10" cols="10" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2" >submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>CopyRights:&copy;Avinash. Made with <i class="fa fa-heart"></i> by Java Devloper</p>
+        </div>
+     </div>
+
+
+
+
+
+
+
+<!--  *********************************Tab links*******************************  -->
+    <Script>
+        var tablinks= document.getElementsByClassName("tab-links")
+        var tabcontents= document.getElementsByClassName("tab-contents")
+        function opentab (tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </Script>
+    <!-- -----------------------------small screen------------------------------------ -->
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+           
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+
+<!-- --------------------------Google form------------------------------------- -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcyB1bCG-O80EcZ7wtbfxEP9NjgFHdKWxzi5K6t_SyeYp7FQVimSqVBjvcFmfsCVTS/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
